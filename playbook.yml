@@ -1,0 +1,9 @@
+---
+- name: Playbook with roles
+  hosts: wordpress
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
+
